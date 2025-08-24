@@ -1,5 +1,4 @@
-Q1: Define and implement a function below called countArrayLessThan that receives a two-dimensional array of ints as its first parameter, an int as its second parameter, and returns a count (as an int) of how many values in the array are less than the provided int. Note that the array may be null, and in this case you should return 0. The array may also be non-rectangular.
-
+Define and implement a function below called countArrayLessThan that receives a two-dimensional array of ints as its first parameter, an int as its second parameter, and returns a count (as an int) of how many values in the array are less than the provided int. Note that the array may be null, and in this case you should return 0. The array may also be non-rectangular.
 
 public int countArrayLessThan (int[][] arr, int num) {
     if (arr==null)return 0;
